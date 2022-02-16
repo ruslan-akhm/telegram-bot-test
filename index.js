@@ -7,7 +7,7 @@ const bot = new TelegramApi(token, { polling: true });
 
 bot.on("message", async (msg) => {
 	const chatId = msg.chat.id;
-	console.log(msg);
+	const text = msg.text;
 	if (text === "/joke") {
 		try {
 			let x = await axios.get(
