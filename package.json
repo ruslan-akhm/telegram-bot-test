@@ -6,14 +6,17 @@
 	"scripts": {
 		"dev": "nodemon index.js",
 		"start": "node index.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "webpack — config webpack.config.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"axios": "^0.26.0",
 		"node-telegram-bot-api": "^0.56.0",
 		"nodemon": "^2.0.15"
+	},
+	"devDependencies": {
+		"webpack": "^5.69.1",
+		"webpack-cli": "^4.9.2"
 	}
 }
