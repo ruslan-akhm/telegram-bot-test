@@ -1,4 +1,4 @@
-export const phrases = [
+module.exports = [
 	"Пашашундрик",
 	"Чирик-пиздык",
 	"Зачем вам это говно?",
