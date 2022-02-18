@@ -1,7 +1,7 @@
 const TelegramApi = require("node-telegram-bot-api");
 const phrases = require("./phrases");
 
-const token = "5183589885:AAHz68r_wJmqp_x0OgcpHbQaY2lg0pz0U2c"; //process.env.MY_KEY;
+const token = process.env.MY_KEY;
 
 const bot = new TelegramApi(token, { polling: true });
 
