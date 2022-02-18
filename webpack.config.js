@@ -11,5 +11,5 @@ module.exports = {
 	},
 	target: "node",
 	//default mode is production
-	mode: "production",
+	mode: "development",
 };
